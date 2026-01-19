@@ -47,9 +47,9 @@
         <div class="nav-container">
             <a href="/" class="nav-logo">D&D Assist</a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="{{ route('home') }}" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Encounters</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Characters</a></li>
+                <li class="nav-item"><a href="{{ route('characters') }}" class="nav-link">Characters</a></li>
             </ul>
         </div>
     </nav>
