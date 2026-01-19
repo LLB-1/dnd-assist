@@ -2,7 +2,7 @@
     <style>
         /* Navbar */
         .navbar {
-            background-color: #2c3e50;
+            background-color: var(--color-primary);
             padding: 1rem 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: sticky;
@@ -22,7 +22,7 @@
         .nav-logo {
             font-size: 1.5rem;
             font-weight: bold;
-            color: white;
+            color: var(--color-accent);
             text-decoration: none;
         }
 
@@ -33,13 +33,13 @@
         }
 
         .nav-link {
-            color: white;
+            color: var(--color-accent);
             text-decoration: none;
             transition: color 0.3s;
         }
 
         .nav-link:hover {
-            color: #3498db;
+            color: var(--color-accent-hover);
         }
     </style>
 
@@ -47,7 +47,7 @@
         <div class="nav-container">
             <a href="/" class="nav-logo">D&D Assist</a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Encounters</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Characters</a></li>
             </ul>

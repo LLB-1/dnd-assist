@@ -28,8 +28,8 @@
 
            /* Footer */
            .footer {
-               background-color: #2c3e50;
-               color: white;
+               background-color: var(--color-primary);
+               color: var(--color-accent);
                text-align: center;
                padding: 2rem;
                margin-top: auto;

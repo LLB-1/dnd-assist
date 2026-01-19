@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body style="background: linear-gradient(135deg, var(--color-secondary), rgba(96, 108, 56, 0.3));">
     <!-- Navigation Bar -->
     <x-navbar />
 

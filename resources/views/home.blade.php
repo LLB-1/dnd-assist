@@ -1,3 +1,4 @@
+</style>
 <x-layout>
     <x-slot name="title">
         Home - D&D Assist
@@ -11,7 +12,7 @@
 
         <div class="w-full max-w-xl">
             <input type="text" placeholder="Who shall we bring to life?"
-                class="w-full px-8 py-4 text-lg rounded-full bg-white shadow-xl border-0 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300" />
+                class="w-full px-8 py-4 text-lg rounded-full bg-white shadow-xl border-0 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400" />
         </div>
     </div>
 </x-layout>
